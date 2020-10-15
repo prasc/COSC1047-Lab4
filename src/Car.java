@@ -1,4 +1,4 @@
-public class Car extends Vehicle implements  Drivable {
+public class Car extends Vehicle implements Drivable, Comparable<Car> {
     private String model;
     private int speed;
 
