@@ -15,5 +15,8 @@ public class Main {
         } else {
             System.out.println("Both cars are the same speed at: " + carOne.getSpeed() + "km/h");
         }
+
+        carOne.steer();
+        System.out.println(carOne.howToDrive());
     }
 }
